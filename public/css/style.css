@@ -1,0 +1,39 @@
+* {
+  text-align: center;
+  font-family: monospace;
+}
+
+body {
+  background-color: black;
+}
+
+h1, label, p, a {
+  color: green;
+  text-decoration: none;
+}
+
+h1:hover, a:hover {
+  color: red;
+}
+
+button {
+  border-radius: .2rem;
+  background-color: white;
+}
+
+button:hover {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+div {
+  text-align: left;
+}
